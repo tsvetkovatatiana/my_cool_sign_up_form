@@ -1,0 +1,154 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+@font-face {
+    font-family: 'Sombong Amat';
+    src: url('fonts/SombongAmat.woff2') format('woff2'),
+    url('fonts/SombongAmat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Timeless';
+    src: url('fonts/Timeless-Normal.woff2') format('woff2'),
+    url('fonts/Timeless-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Timeless';
+    src: url('fonts/Timeless-Bold.woff2') format('woff2'),
+    url('fonts/Timeless-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    line-height: 1.5;
+    margin: 5vh;
+}
+
+h1 {
+    font-family: 'Sombong Amat', sans-serif;
+}
+
+h2, h3 {
+    font-family: "Timeless", serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Timeless", serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#photo-credentials {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#sign-up-form {
+    flex: 1;
+    align-content: center;
+    max-width: 800px;
+    height: 900px;
+    background-color: #adcbd6;
+}
+
+#sign-up-form h3 {
+    margin: 2vw;
+}
+
+form {
+    background-color: #eaf3f8;
+    padding: 1rem;
+}
+#form-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 1rem 2rem; /* spacing between fields */
+    margin: 2vw;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-family: "Timeless", serif;
+}
+
+.form-group label {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form-actions {
+    grid-column: span 2;
+    margin: 2vw;
+}
+
+#form-actions button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4b5f3c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#form-actions p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+#form-actions a {
+    color: #3b5d3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
