@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up MooGallery</title>
+</head>
+<body>
+<header>
+    <h1>MooPic</h1>
+</header>
+
+<div id="form-container">
+    <div class="image-container">
+        <img src="images/cow_form_bg.jpg" alt="Cow in scenic landscape">
+        <p id="photo-credentials">
+            Photo by Ebahir from
+            <a href="https://www.pexels.com/photo/grazing-cow-in-scenic-mountain-landscape-31919713/">Pexels</a>
+        </p>
+    </div>
+
+    <div id="sign-up-form">
+        <h3>This is a sign-up form for our website so you can save and enjoy CowMoos in your own acount! It is like a cow pinterest!</h3>
+        <h3>Sign up <i>now</i> to get started!</h3>
+        <form>
+            <h3>Fill in the form</h3>
+            <div id="form-fields">
+                <div class="form-group">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Alla">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Pugachova">
+                </div>
+
+                <div class="form-group">
+                    <label for="mail">EMAIL</label>
+                    <input type="email" id="mail" name="user-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user_phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="user_phone_number" name="phone_number">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>
+
+            <div id="form-actions">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
