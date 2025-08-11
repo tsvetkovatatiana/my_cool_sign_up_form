@@ -149,6 +149,10 @@ form {
     font-weight: bold;
 }
 
+input:required:focus:invalid {
+    border: 2px solid #be6522;
+}
+
 
 
 

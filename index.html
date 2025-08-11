@@ -29,8 +29,8 @@
             <h3>Fill in the form</h3>
             <div id="form-fields">
                 <div class="form-group">
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Alla">
+                    <label for="firstname">FIRST NAME <strong><span aria-label="required">*</span></strong> </label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Alla" required>
                 </div>
 
                 <div class="form-group">
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="mail">EMAIL</label>
+                    <label for="mail">EMAIL <strong><span aria-label="required">*</span></strong> </label>
                     <input type="email" id="mail" name="user-mail" required>
                 </div>
 
@@ -49,18 +49,20 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="password">PASSWORD</label>
+                    <label for="password">PASSWORD <strong><span aria-label="required">*</span></strong> </label>
                     <input type="password" id="password" name="password" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <label for="confirm-password">CONFIRM PASSWORD <strong><span aria-label="required">*</span></strong> </label>
                     <input type="password" id="confirm-password" name="confirm-password" required>
                 </div>
             </div>
 
             <div id="form-actions">
-                <button type="submit">Create Account</button>
+                <a href="https://www.youtube.com/watch?v=bythWQNvV1k">
+                    <button type="submit">Create Account</button>
+                </a>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </form>
